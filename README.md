@@ -6,7 +6,6 @@ My solution is based on flask-ask and lokal docker environment. You can add to y
 [Please register at the Amazon Developer Portal ](http://developer.amazon.com/)
 It's free of charge. If you already have an Amazon account, then you don't have to register. You can use the credentials of your existing account. Without the Amazon Developer Console you won't be able to write an Alexa skill.
 
-
 # 2 Docker Installation
 
 Install [Docker CE (Community Edition)](https://docs.docker.com/engine/installation/#desktop) on your machine. To test your Docker installation execute the following command:
@@ -32,7 +31,7 @@ Open a new tab and run an _Alexa_ Docker container:
 
 * On Linux:
 
-  `$ sudo docker run -v ~/Desktop/Template/Alexa_universal_skill_template_python:/skill -it --network myNetwork --name alexa_python docker pull falent/alexa_python_flask_ask`
+  `$ sudo docker run -v ~/Desktop/Template/Alexa_universal_skill_template_python:/skill -it --network myNetwork --name alexa_python falent/alexa_python_flask_ask`
   
 * On Windows:
 
@@ -40,6 +39,7 @@ Open a new tab and run an _Alexa_ Docker container:
   
 (it can happens that you wish to add more modules to your skill. In that case you just need to restart your container)
 
+Now your docker container is ready to work. Just copy the ngrok address from a console!
 
 You can add to your stack also any database f.e
 
