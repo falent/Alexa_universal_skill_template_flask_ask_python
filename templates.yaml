@@ -1,0 +1,17 @@
+welcome: |
+  Alexa_universal_skill_template_flask_ask_python.
+
+welcome_re: |
+  Alexa_universal_skill_template_flask_ask_python. How may I help you?
+
+welcome_card: |
+  Alexa_universal_skill_template_flask_ask_python is an Alexa skill written by Tomasz Krajewski. This is the exaple of alexa skill written in flask-ask in a docker sollution
+
+stop_bye: |
+  Goodbye!
+
+cancel_bye: |
+  OK, goodbye!
+
+help_text: |
+  Alexa_universal_skill_template_flask_ask_python is an Alexa skill that does things. This is where the developer would normally explain how to do them.
